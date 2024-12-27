@@ -1,0 +1,15 @@
+{
+  "name": "btu-schedule-scraper-api",
+  "version": "1.0.0",
+  "description": "API for scraping BTU student schedule",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.0.0",
+    "firebase-admin": "^9.11.0",
+    "cors": "^2.8.5"
+  }
+}
